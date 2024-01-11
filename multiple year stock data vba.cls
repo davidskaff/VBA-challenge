@@ -81,16 +81,13 @@ Sub StockDataAnalysis()
         ws.Cells(4, 16).Value = VolumeTicker
         ws.Cells(4, 17).Value = GreatestVolume
 
-        ' Formatting
         LastRow = ws.Cells(Rows.Count, 9).End(xlUp).Row
         For i = 2 To LastRow
-            ' Convert to percentage format
             ws.Cells(i, 11).NumberFormat = "0.00%"
-            ' Color yearly change column
             If ws.Cells(i, 10).Value > 0 Then
-                ws.Cells(i, 10).Interior.Color = RGB(0, 255, 0) ' Green
+                ws.Cells(i, 10).Interior.Color = RGB(0, 255, 0)
             ElseIf ws.Cells(i, 10).Value < 0 Then
-                ws.Cells(i, 10).Interior.Color = RGB(255, 0, 0) ' Red
+                ws.Cells(i, 10).Interior.Color = RGB(255, 0, 0)
             End If
         Next i
 
