@@ -10,11 +10,7 @@ Yearly Change: The difference between the opening price at the beginning of the 
 Percentage Change: The percentage change from the opening price at the beginning of the year to the closing price at the end of the year.
 Total Stock Volume: The total volume of the stock traded during the year.
 
-In addition to the basic functionality, the script should also identify and return the stock with the:
-
-“Greatest % Increase”
-“Greatest % Decrease”
-“Greatest Total Volume”
+In addition to the basic functionality, the script should also identify and return the stock with the Greatest % Increase, Greatest % Decrease and Greatest Total Volume.
 
 Upon successful completion of this project, we will have a powerful tool for analyzing stock performance over time. This can help in making informed investment decisions and understanding market trends.
 
